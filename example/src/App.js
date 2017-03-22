@@ -50,7 +50,6 @@ export default class App extends Component {
                 ]
               );
             }).catch(result => {
-              console.log('form validation', result);
               Alert.alert(
                 '',
                 JSON.stringify(result),
